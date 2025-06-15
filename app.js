@@ -1534,7 +1534,7 @@ const preguntes = {
       {
           "pregunta": "| T | representa el nombre de ... de la taula T.",
           "opcions": ["Atributs", "Bytes", "Blocs", "Files"],
-          "correcta": 2
+          "correcta": 3
       },
       {
           "pregunta": "Quin és típicament l'ordre (normalment representat per la lletra “d”) d'un índex tipus arbre?",
@@ -2161,7 +2161,7 @@ const preguntes = {
             "correcta": 1
         },
         {
-            "pregunta": "Si alguna de les dues taules no hi cap a memòria, l’algorisme de Hash-join particiona les dues.",
+            "pregunta": "Si la taula més petita no hi cap a memòria, l’algorisme de Hash-join particiona les dues.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
@@ -2617,7 +2617,7 @@ const preguntes = {
       {
           "pregunta": "El fet que trossejar una transacció afecti o no al seu aıllament depen nomes d’ella mateixa i no de cap altra transaccio que es pugui executar de forma concurrent",
           "opcions": ["Cert", "Fals"],
-          "correcta": 0
+          "correcta": 1
       },
       {
           "pregunta": "Trossejar una transacció afecta només a ella mateixa i no a cap altra transacció concurrent.",
